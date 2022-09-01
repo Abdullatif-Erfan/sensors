@@ -1,0 +1,1052 @@
+[
+  {
+    "device_id": "nrf-365f269398d4",
+    "last_online": "1656706102000",
+    "last_temp": 18.6,
+    "customer": "customer-1",
+    "location": "Vale"
+  },
+  {
+    "device_id": "nrf-2158adf90bc5",
+    "last_online": "1627612062000",
+    "last_temp": 21.8,
+    "customer": "customer-1",
+    "location": "Union"
+  },
+  {
+    "device_id": "nrf-aeca444f5d45",
+    "last_online": "1650632174000",
+    "last_temp": 20.0,
+    "customer": "customer-1",
+    "location": "Eckerö"
+  },
+  {
+    "device_id": "nrf-de5dcafcaac3",
+    "last_online": "1645507037000",
+    "last_temp": 19.3,
+    "customer": "customer-1",
+    "location": "Si’en"
+  },
+  {
+    "device_id": "nrf-a51d7266eea1",
+    "last_online": "1652945334000",
+    "last_temp": 25.4,
+    "customer": "customer-1",
+    "location": "Prinza"
+  },
+  {
+    "device_id": "nrf-3b4e82141629",
+    "last_online": "1658444696000",
+    "last_temp": 19.1,
+    "customer": "customer-1",
+    "location": "Roshnik"
+  },
+  {
+    "device_id": "nrf-59f8f841f93b",
+    "last_online": "1650085451000",
+    "last_temp": 19.7,
+    "customer": "customer-1",
+    "location": "Heby"
+  },
+  {
+    "device_id": "nrf-e35dddd2b88d",
+    "last_online": "1647481458000",
+    "last_temp": 18.5,
+    "customer": "customer-1",
+    "location": "Aizi"
+  },
+  {
+    "device_id": "nrf-3efec5a5d953",
+    "last_online": "1631158863000",
+    "last_temp": 25.3,
+    "customer": "customer-1",
+    "location": "Morropón"
+  },
+  {
+    "device_id": "nrf-d1c2a12e5582",
+    "last_online": "1641045098000",
+    "last_temp": 19.1,
+    "customer": "customer-1",
+    "location": "Garhi Khairo"
+  },
+  {
+    "device_id": "nrf-489818ace7d2",
+    "last_online": "1627988310000",
+    "last_temp": null,
+    "customer": "customer-1",
+    "location": null
+  },
+  {
+    "device_id": "nrf-0bb72decf3be",
+    "last_online": "1639517179000",
+    "last_temp": 20.6,
+    "customer": "customer-1",
+    "location": "Aimin"
+  },
+  {
+    "device_id": "nrf-78c3e9c8ffb5",
+    "last_online": "1652695095000",
+    "last_temp": 17.3,
+    "customer": "customer-1",
+    "location": "Quţūr"
+  },
+  {
+    "device_id": "nrf-e136b7a2c8e1",
+    "last_online": "1629318101000",
+    "last_temp": null,
+    "customer": "customer-1",
+    "location": null
+  },
+  {
+    "device_id": "nrf-fc354f401738",
+    "last_online": "1646785855000",
+    "last_temp": 24.6,
+    "customer": "customer-1",
+    "location": "Lokot’"
+  },
+  {
+    "device_id": "nrf-07792162ec12",
+    "last_online": "1640812017000",
+    "last_temp": 28.8,
+    "customer": "customer-1",
+    "location": "Nishor"
+  },
+  {
+    "device_id": "nrf-0e884f1c580c",
+    "last_online": "1659173534000",
+    "last_temp": 29.9,
+    "customer": "customer-1",
+    "location": "Kayan"
+  },
+  {
+    "device_id": "nrf-49462497d3e0",
+    "last_online": "1656447653000",
+    "last_temp": 24.7,
+    "customer": "customer-1",
+    "location": "Sokol"
+  },
+  {
+    "device_id": "nrf-f7f5319e9493",
+    "last_online": "1654102210000",
+    "last_temp": 23.1,
+    "customer": "customer-1",
+    "location": "Guifões"
+  },
+  {
+    "device_id": "nrf-b378bda0babb",
+    "last_online": "1642635092000",
+    "last_temp": 30.8,
+    "customer": "customer-1",
+    "location": "Kazanskaya"
+  },
+  {
+    "device_id": "nrf-1a6e6a597fef",
+    "last_online": "1635955073000",
+    "last_temp": 19.3,
+    "customer": "customer-1",
+    "location": "Żabno"
+  },
+  {
+    "device_id": "nrf-765a656c6bf5",
+    "last_online": "1631470455000",
+    "last_temp": 21.5,
+    "customer": "customer-1",
+    "location": "Passo Fundo"
+  },
+  {
+    "device_id": "nrf-07fcf09a0eb3",
+    "last_online": "1651996731000",
+    "last_temp": 24.9,
+    "customer": "customer-1",
+    "location": "Alíartos"
+  },
+  {
+    "device_id": "nrf-3e61936e280b",
+    "last_online": "1637652584000",
+    "last_temp": 24.8,
+    "customer": "customer-1",
+    "location": "Horní Jiřetín"
+  },
+  {
+    "device_id": "nrf-e1dceb79fc1c",
+    "last_online": "1638692323000",
+    "last_temp": 22.9,
+    "customer": "customer-1",
+    "location": "Zarya"
+  },
+  {
+    "device_id": "nrf-44fd86c8812a",
+    "last_online": "1650117204000",
+    "last_temp": 30.8,
+    "customer": "customer-1",
+    "location": "Kyra"
+  },
+  {
+    "device_id": "nrf-a9e0bfa09595",
+    "last_online": "1645790477000",
+    "last_temp": 17.1,
+    "customer": "customer-1",
+    "location": "Martingança"
+  },
+  {
+    "device_id": "nrf-544f92e219ef",
+    "last_online": "1628019916000",
+    "last_temp": 24.0,
+    "customer": "customer-1",
+    "location": "Chantilly"
+  },
+  {
+    "device_id": "nrf-962269aa8920",
+    "last_online": "1638694327000",
+    "last_temp": 20.2,
+    "customer": "customer-1",
+    "location": "Waterloo"
+  },
+  {
+    "device_id": "nrf-be2a7d7698b0",
+    "last_online": "1654112091000",
+    "last_temp": 26.3,
+    "customer": "customer-1",
+    "location": "Vila de Sal Rei"
+  },
+  {
+    "device_id": "nrf-b7ed63911a73",
+    "last_online": "1652181628000",
+    "last_temp": 30.8,
+    "customer": "customer-1",
+    "location": "‘Ajlūn"
+  },
+  {
+    "device_id": "nrf-84be61588d5e",
+    "last_online": "1650897393000",
+    "last_temp": 17.4,
+    "customer": "customer-1",
+    "location": "Aghavnatun"
+  },
+  {
+    "device_id": "nrf-b1537b6f67a6",
+    "last_online": "1636145669000",
+    "last_temp": 25.1,
+    "customer": "customer-1",
+    "location": "Zhangwan"
+  },
+  {
+    "device_id": "nrf-22a2e9fd7d91",
+    "last_online": "1656695218000",
+    "last_temp": 21.8,
+    "customer": "customer-1",
+    "location": "Rzozów"
+  },
+  {
+    "device_id": "nrf-419b312d8ae1",
+    "last_online": "1630305244000",
+    "last_temp": 18.9,
+    "customer": "customer-1",
+    "location": "Granada"
+  },
+  {
+    "device_id": "nrf-a160bcb03155",
+    "last_online": "1628874502000",
+    "last_temp": 19.7,
+    "customer": "customer-1",
+    "location": "Matalam"
+  },
+  {
+    "device_id": "nrf-0deed2bf8daa",
+    "last_online": "1645888786000",
+    "last_temp": 30.5,
+    "customer": "customer-1",
+    "location": "Sydney"
+  },
+  {
+    "device_id": "nrf-e4e34877618b",
+    "last_online": "1648883918000",
+    "last_temp": 17.8,
+    "customer": "customer-1",
+    "location": "Serang"
+  },
+  {
+    "device_id": "nrf-216ba95226bd",
+    "last_online": "1658435946000",
+    "last_temp": 29.5,
+    "customer": "customer-1",
+    "location": "Předměřice nad Labem"
+  },
+  {
+    "device_id": "nrf-85ace1045cb8",
+    "last_online": "1646012575000",
+    "last_temp": 26.4,
+    "customer": "customer-1",
+    "location": "Guifeng"
+  },
+  {
+    "device_id": "nrf-012d4f0334a5",
+    "last_online": "1655750839000",
+    "last_temp": 23.1,
+    "customer": "customer-1",
+    "location": "Santa Maria da Vitória"
+  },
+  {
+    "device_id": "nrf-d1556792b7c8",
+    "last_online": "1638967454000",
+    "last_temp": 19.6,
+    "customer": "customer-1",
+    "location": "Anau"
+  },
+  {
+    "device_id": "nrf-961f1eecf4d3",
+    "last_online": "1637732328000",
+    "last_temp": 31.2,
+    "customer": "customer-1",
+    "location": "Balaklava"
+  },
+  {
+    "device_id": "nrf-36f7ea8805c5",
+    "last_online": "1631649560000",
+    "last_temp": 24.8,
+    "customer": "customer-2",
+    "location": "Eirado"
+  },
+  {
+    "device_id": "nrf-cfed309f229c",
+    "last_online": "1643930635000",
+    "last_temp": 27.1,
+    "customer": "customer-2",
+    "location": "Kesambilerenkrajan"
+  },
+  {
+    "device_id": "nrf-b5847621557e",
+    "last_online": "1647187838000",
+    "last_temp": 25.5,
+    "customer": "customer-2",
+    "location": "San Antonio"
+  },
+  {
+    "device_id": "nrf-3d5bf9e930d9",
+    "last_online": "1641418374000",
+    "last_temp": 19.3,
+    "customer": "customer-2",
+    "location": "Marne-la-Vallée"
+  },
+  {
+    "device_id": "nrf-83964d85d47b",
+    "last_online": "1656053938000",
+    "last_temp": 31.7,
+    "customer": "customer-2",
+    "location": "La Cesira"
+  },
+  {
+    "device_id": "nrf-87ec42bfbc97",
+    "last_online": "1632306405000",
+    "last_temp": 22.1,
+    "customer": "customer-2",
+    "location": "Santa Maria"
+  },
+  {
+    "device_id": "nrf-236702ac00fc",
+    "last_online": "1649855963000",
+    "last_temp": 17.1,
+    "customer": "customer-3",
+    "location": "Koch'ang"
+  },
+  {
+    "device_id": "nrf-ac387711bc17",
+    "last_online": "1638799296000",
+    "last_temp": 21.5,
+    "customer": "customer-3",
+    "location": "Hujiaying"
+  },
+  {
+    "device_id": "nrf-29bde675511a",
+    "last_online": "1635167553000",
+    "last_temp": 19.9,
+    "customer": "customer-3",
+    "location": "Johor Bahru"
+  },
+  {
+    "device_id": "nrf-70f42abfdc1e",
+    "last_online": "1628816681000",
+    "last_temp": 31.2,
+    "customer": "customer-3",
+    "location": "Gresik"
+  },
+  {
+    "device_id": "nrf-0d7dfcd02d0a",
+    "last_online": "1654901137000",
+    "last_temp": 21.3,
+    "customer": "customer-3",
+    "location": "Gandara"
+  },
+  {
+    "device_id": "nrf-7b0fbd507cd0",
+    "last_online": "1632835891000",
+    "last_temp": 17.6,
+    "customer": "customer-3",
+    "location": "Nine"
+  },
+  {
+    "device_id": "nrf-3f9f0dab406d",
+    "last_online": "1629138860000",
+    "last_temp": 29.7,
+    "customer": "customer-3",
+    "location": "Capão da Canoa"
+  },
+  {
+    "device_id": "nrf-2f9eecb8c121",
+    "last_online": "1628728929000",
+    "last_temp": 27.3,
+    "customer": "customer-3",
+    "location": "Nishor"
+  },
+  {
+    "device_id": "nrf-0ec5a691cf06",
+    "last_online": "1641127211000",
+    "last_temp": 24.5,
+    "customer": "customer-3",
+    "location": "Danyang"
+  },
+  {
+    "device_id": "nrf-9b74d04d9c49",
+    "last_online": "1640702508000",
+    "last_temp": 17.1,
+    "customer": "customer-3",
+    "location": "Ḑubāh"
+  },
+  {
+    "device_id": "nrf-29ff91251685",
+    "last_online": "1645060949000",
+    "last_temp": 23.6,
+    "customer": "customer-3",
+    "location": "Sang-e Chārak"
+  },
+  {
+    "device_id": "nrf-6eaf050dce5c",
+    "last_online": "1638520867000",
+    "last_temp": 23.6,
+    "customer": "customer-3",
+    "location": "Guatraché"
+  },
+  {
+    "device_id": "nrf-89cbcd2ae726",
+    "last_online": "1650328647000",
+    "last_temp": 23.2,
+    "customer": "customer-3",
+    "location": "Borås"
+  },
+  {
+    "device_id": "nrf-d35352cd1ce1",
+    "last_online": "1639456150000",
+    "last_temp": 17.7,
+    "customer": "customer-4",
+    "location": "Buđanovci"
+  },
+  {
+    "device_id": "nrf-b984cc859de3",
+    "last_online": "1649288432000",
+    "last_temp": 25.0,
+    "customer": "customer-4",
+    "location": "Sap Yai"
+  },
+  {
+    "device_id": "nrf-2cc2aa8190e5",
+    "last_online": "1650908092000",
+    "last_temp": 27.1,
+    "customer": "customer-4",
+    "location": "Maciejowice"
+  },
+  {
+    "device_id": "nrf-bd87c29340ab",
+    "last_online": "1649649973000",
+    "last_temp": 27.5,
+    "customer": "customer-4",
+    "location": "Kubangkondang"
+  },
+  {
+    "device_id": "nrf-22b9a3851b3d",
+    "last_online": "1646648481000",
+    "last_temp": 23.4,
+    "customer": "customer-4",
+    "location": "Posse"
+  },
+  {
+    "device_id": "nrf-26e661e5fbfb",
+    "last_online": "1634946761000",
+    "last_temp": 24.2,
+    "customer": "customer-4",
+    "location": "Vinces"
+  },
+  {
+    "device_id": "nrf-d570c6472692",
+    "last_online": "1649327896000",
+    "last_temp": 19.5,
+    "customer": "customer-5",
+    "location": "São Fidélis"
+  },
+  {
+    "device_id": "nrf-590803107ccb",
+    "last_online": "1637392754000",
+    "last_temp": 26.8,
+    "customer": "customer-5",
+    "location": "Al ‘Azīzīyah"
+  },
+  {
+    "device_id": "nrf-fa05c3b9e0fd",
+    "last_online": "1649782302000",
+    "last_temp": 18.8,
+    "customer": "customer-6",
+    "location": "Qingtong"
+  },
+  {
+    "device_id": "nrf-1900bde1e563",
+    "last_online": "1653329329000",
+    "last_temp": 26.7,
+    "customer": "customer-6",
+    "location": "Palhais"
+  },
+  {
+    "device_id": "nrf-9cd7b5fb977b",
+    "last_online": "1649030343000",
+    "last_temp": 21.5,
+    "customer": "customer-6",
+    "location": "Ijuí"
+  },
+  {
+    "device_id": "nrf-9988a13762f0",
+    "last_online": "1636919897000",
+    "last_temp": 30.7,
+    "customer": "customer-6",
+    "location": "Dongshan"
+  },
+  {
+    "device_id": "nrf-b8669ce5097f",
+    "last_online": "1630440926000",
+    "last_temp": 31.7,
+    "customer": "customer-6",
+    "location": "Orissaare"
+  },
+  {
+    "device_id": "nrf-8c400b9d60d0",
+    "last_online": "1652268692000",
+    "last_temp": null,
+    "customer": "customer-7",
+    "location": null
+  },
+  {
+    "device_id": "nrf-3dab343a464d",
+    "last_online": "1638453401000",
+    "last_temp": 20.0,
+    "customer": "customer-8",
+    "location": "Touguinha"
+  },
+  {
+    "device_id": "nrf-3f75ab23264b",
+    "last_online": "1652624339000",
+    "last_temp": 26.5,
+    "customer": "customer-8",
+    "location": "Cabugao"
+  },
+  {
+    "device_id": "nrf-003e355fc87d",
+    "last_online": "1650174122000",
+    "last_temp": 27.3,
+    "customer": "customer-8",
+    "location": "Dolany"
+  },
+  {
+    "device_id": "nrf-0b58de15f387",
+    "last_online": "1654846763000",
+    "last_temp": 29.0,
+    "customer": "customer-8",
+    "location": "Rosso"
+  },
+  {
+    "device_id": "nrf-9a6559c1d152",
+    "last_online": "1632007759000",
+    "last_temp": 30.2,
+    "customer": "customer-8",
+    "location": "Mantalongon"
+  },
+  {
+    "device_id": "nrf-552efe2ed940",
+    "last_online": "1628623673000",
+    "last_temp": 20.7,
+    "customer": "customer-8",
+    "location": "General Santos"
+  },
+  {
+    "device_id": "nrf-078450432b53",
+    "last_online": "1649075965000",
+    "last_temp": 29.1,
+    "customer": "customer-8",
+    "location": "North Shore"
+  },
+  {
+    "device_id": "nrf-b96b9a76d1ca",
+    "last_online": "1658328133000",
+    "last_temp": 31.1,
+    "customer": "customer-9",
+    "location": "Polýkastro"
+  },
+  {
+    "device_id": "nrf-be74df9ee219",
+    "last_online": "1638733545000",
+    "last_temp": 18.2,
+    "customer": "customer-9",
+    "location": "Nuing"
+  },
+  {
+    "device_id": "nrf-62e3393ce1a2",
+    "last_online": "1656721216000",
+    "last_temp": 21.7,
+    "customer": "customer-9",
+    "location": "Wanling"
+  },
+  {
+    "device_id": "nrf-a0f74611f68a",
+    "last_online": "1631374775000",
+    "last_temp": 29.6,
+    "customer": "customer-9",
+    "location": "Sunduan"
+  },
+  {
+    "device_id": "nrf-b4683c8af801",
+    "last_online": "1643277918000",
+    "last_temp": 25.4,
+    "customer": "customer-9",
+    "location": "Bromma"
+  },
+  {
+    "device_id": "nrf-00cd8995fbda",
+    "last_online": "1634665699000",
+    "last_temp": 17.6,
+    "customer": "customer-9",
+    "location": "Zambujeira"
+  },
+  {
+    "device_id": "nrf-7ba0bbcfcc0a",
+    "last_online": "1652190377000",
+    "last_temp": 29.7,
+    "customer": "customer-9",
+    "location": "Binjiang"
+  },
+  {
+    "device_id": "nrf-893de804a702",
+    "last_online": "1652101414000",
+    "last_temp": 22.0,
+    "customer": "customer-10",
+    "location": "Bulu"
+  },
+  {
+    "device_id": "nrf-5cb775ba0fc5",
+    "last_online": "1659062361000",
+    "last_temp": null,
+    "customer": "customer-10",
+    "location": null
+  },
+  {
+    "device_id": "nrf-6dd0c6281ac6",
+    "last_online": "1636243856000",
+    "last_temp": 24.3,
+    "customer": "customer-10",
+    "location": "Kura"
+  },
+  {
+    "device_id": "nrf-0830096412fd",
+    "last_online": "1639521801000",
+    "last_temp": 26.2,
+    "customer": "customer-10",
+    "location": "Verrettes"
+  },
+  {
+    "device_id": "nrf-0a3b2c4943f5",
+    "last_online": "1646724548000",
+    "last_temp": 25.2,
+    "customer": "customer-10",
+    "location": "Xintaimen"
+  },
+  {
+    "device_id": "nrf-a252fa0d6045",
+    "last_online": "1638104301000",
+    "last_temp": 27.3,
+    "customer": "customer-10",
+    "location": "Tasīl"
+  },
+  {
+    "device_id": "nrf-3bf025ed0204",
+    "last_online": "1658522736000",
+    "last_temp": 30.9,
+    "customer": "customer-10",
+    "location": "Lonpao Dajah"
+  },
+  {
+    "device_id": "nrf-781c4a091e7e",
+    "last_online": "1647948821000",
+    "last_temp": 20.1,
+    "customer": "customer-10",
+    "location": "Agat Village"
+  },
+  {
+    "device_id": "nrf-cb9e188124b0",
+    "last_online": "1650057202000",
+    "last_temp": 17.9,
+    "customer": "customer-10",
+    "location": "Bilicenii Vechi"
+  },
+  {
+    "device_id": "nrf-e5d112f28215",
+    "last_online": "1650871605000",
+    "last_temp": 31.3,
+    "customer": "customer-11",
+    "location": "Alavus"
+  },
+  {
+    "device_id": "nrf-689a9dc43a54",
+    "last_online": "1630716585000",
+    "last_temp": 30.5,
+    "customer": "customer-11",
+    "location": "Cournon-d'Auvergne"
+  },
+  {
+    "device_id": "nrf-07e837066afa",
+    "last_online": "1643168114000",
+    "last_temp": 21.8,
+    "customer": "customer-11",
+    "location": "Bobrov"
+  },
+  {
+    "device_id": "nrf-9daef6fe67e4",
+    "last_online": "1633541780000",
+    "last_temp": 19.4,
+    "customer": "customer-11",
+    "location": "Bantawora"
+  },
+  {
+    "device_id": "nrf-78d65a894635",
+    "last_online": "1647179042000",
+    "last_temp": 24.2,
+    "customer": "customer-11",
+    "location": "Tawali"
+  },
+  {
+    "device_id": "nrf-bd191e53c4b4",
+    "last_online": "1627903858000",
+    "last_temp": 17.1,
+    "customer": "customer-11",
+    "location": "Wonocoyo Utara"
+  },
+  {
+    "device_id": "nrf-169db4ed41db",
+    "last_online": "1654775982000",
+    "last_temp": 24.3,
+    "customer": "customer-12",
+    "location": "Del Pilar"
+  },
+  {
+    "device_id": "nrf-90d1562ff7ca",
+    "last_online": "1649096227000",
+    "last_temp": 30.9,
+    "customer": "customer-12",
+    "location": "Abadiânia"
+  },
+  {
+    "device_id": "nrf-3807b690b391",
+    "last_online": "1641129576000",
+    "last_temp": 24.4,
+    "customer": "customer-12",
+    "location": "Nīkshahr"
+  },
+  {
+    "device_id": "nrf-ee3e7632604b",
+    "last_online": "1645160523000",
+    "last_temp": 19.3,
+    "customer": "customer-12",
+    "location": "Ukmerge"
+  },
+  {
+    "device_id": "nrf-11bf823276d5",
+    "last_online": "1645169974000",
+    "last_temp": 25.3,
+    "customer": "customer-12",
+    "location": "Madrid"
+  },
+  {
+    "device_id": "nrf-c372b7ff483c",
+    "last_online": "1643392764000",
+    "last_temp": 25.2,
+    "customer": "customer-12",
+    "location": "Agua Fría"
+  },
+  {
+    "device_id": "nrf-621f11f186aa",
+    "last_online": "1631902093000",
+    "last_temp": 30.9,
+    "customer": "customer-13",
+    "location": "Cihaladan"
+  },
+  {
+    "device_id": "nrf-f67d608f2775",
+    "last_online": "1657721176000",
+    "last_temp": 26.0,
+    "customer": "customer-13",
+    "location": "Xiangshan"
+  },
+  {
+    "device_id": "nrf-755687e6cdbe",
+    "last_online": "1650481618000",
+    "last_temp": 31.4,
+    "customer": "customer-13",
+    "location": "Gunung Timur"
+  },
+  {
+    "device_id": "nrf-e9417a5cddae",
+    "last_online": "1651735006000",
+    "last_temp": 24.7,
+    "customer": "customer-14",
+    "location": "Dededo Village"
+  },
+  {
+    "device_id": "nrf-b6476db6b1d8",
+    "last_online": "1634796350000",
+    "last_temp": 26.0,
+    "customer": "customer-14",
+    "location": "San Rafael"
+  },
+  {
+    "device_id": "nrf-8ce2019f3ec1",
+    "last_online": "1651930801000",
+    "last_temp": 31.5,
+    "customer": "customer-15",
+    "location": "Bulqizë"
+  },
+  {
+    "device_id": "nrf-ee442709d4b9",
+    "last_online": "1646294239000",
+    "last_temp": 29.2,
+    "customer": "customer-15",
+    "location": "Saniwonorejo"
+  },
+  {
+    "device_id": "nrf-0bd3e875d17f",
+    "last_online": "1632938978000",
+    "last_temp": 22.3,
+    "customer": "customer-15",
+    "location": "Rio de Janeiro"
+  },
+  {
+    "device_id": "nrf-921bed1ad632",
+    "last_online": "1645422920000",
+    "last_temp": 23.8,
+    "customer": "customer-15",
+    "location": "Viesīte"
+  },
+  {
+    "device_id": "nrf-2a38191ac0e6",
+    "last_online": "1639512712000",
+    "last_temp": 19.4,
+    "customer": "customer-16",
+    "location": "Nogent-le-Rotrou"
+  },
+  {
+    "device_id": "nrf-78de77dd5d09",
+    "last_online": "1631021536000",
+    "last_temp": 27.5,
+    "customer": "customer-16",
+    "location": "Golina"
+  },
+  {
+    "device_id": "nrf-8b385725c8a6",
+    "last_online": "1644313557000",
+    "last_temp": 18.9,
+    "customer": "customer-16",
+    "location": "Villa Ojo de Agua"
+  },
+  {
+    "device_id": "nrf-cfcbf0056b4f",
+    "last_online": "1647820301000",
+    "last_temp": 30.2,
+    "customer": "customer-16",
+    "location": "Ojo de Agua"
+  },
+  {
+    "device_id": "nrf-0d3cdf6139f1",
+    "last_online": "1653404381000",
+    "last_temp": 30.8,
+    "customer": "customer-17",
+    "location": "Těšetice"
+  },
+  {
+    "device_id": "nrf-0315d7476781",
+    "last_online": "1653617152000",
+    "last_temp": null,
+    "customer": "customer-17",
+    "location": null
+  },
+  {
+    "device_id": "nrf-6e89d54c63b3",
+    "last_online": "1654509213000",
+    "last_temp": 30.8,
+    "customer": "customer-17",
+    "location": "Quảng Ngãi"
+  },
+  {
+    "device_id": "nrf-b39a822b1e5c",
+    "last_online": "1658724398000",
+    "last_temp": 31.3,
+    "customer": "customer-17",
+    "location": "Dawuhan"
+  },
+  {
+    "device_id": "nrf-26b17be5b799",
+    "last_online": "1642708576000",
+    "last_temp": 22.4,
+    "customer": "customer-17",
+    "location": "Kiev"
+  },
+  {
+    "device_id": "nrf-0bc85d4f4f24",
+    "last_online": "1630643218000",
+    "last_temp": 28.0,
+     "customer": "customer-17",
+    "location": "Íquira"
+  },
+  {
+    "device_id": "nrf-ad779aeff343",
+    "last_online": "1654433799000",
+    "last_temp": 20.4,
+    "customer": "customer-17",
+    "location": "Buka"
+  },
+  {
+    "device_id": "nrf-dff34c874bdb",
+    "last_online": "1655226635000",
+    "last_temp": 19.8,
+    "customer": "customer-18",
+    "location": "Cabreúva"
+  },
+  {
+    "device_id": "nrf-2d1ee726f607",
+    "last_online": "1644961187000",
+    "last_temp": 24.1,
+    "customer": "customer-18",
+    "location": "Xiachen"
+  },
+  {
+    "device_id": "nrf-c8aa5794310a",
+    "last_online": "1649354439000",
+    "last_temp": 19.1,
+    "customer": "customer-18",
+    "location": "Ţubarjal"
+  },
+  {
+    "device_id": "nrf-828ecc696d61",
+    "last_online": "1648431258000",
+    "last_temp": 21.6,
+    "customer": "customer-18",
+    "location": "Villa Castelli"
+  },
+  {
+    "device_id": "nrf-df69b6de3455",
+    "last_online": "1655791124000",
+    "last_temp": 23.3,
+    "customer": "customer-19",
+    "location": "Dauriya"
+  },
+  {
+    "device_id": "nrf-842500b82c69",
+    "last_online": "1647742387000",
+    "last_temp": 23.5,
+    "customer": "customer-19",
+    "location": "Habiganj"
+  },
+  {
+    "device_id": "nrf-83c8611bb292",
+    "last_online": "1657515802000",
+    "last_temp": 23.4,
+    "customer": "customer-19",
+    "location": "Taphan Hin"
+  },
+  {
+    "device_id": "nrf-71c57248005e",
+    "last_online": "1632120522000",
+    "last_temp": 21.1,
+    "customer": "customer-19",
+    "location": "Alvalade"
+  },
+  {
+    "device_id": "nrf-5b81dc69505e",
+    "last_online": "1632248491000",
+    "last_temp": 28.5,
+    "customer": "customer-19",
+    "location": "Brasília"
+  },
+  {
+    "device_id": "nrf-66ee2cdf1560",
+    "last_online": "1639895861000",
+    "last_temp": 24.6,
+    "customer": "customer-19",
+    "location": "Alegre"
+  },
+  {
+    "device_id": "nrf-ee1a18a65a4f",
+    "last_online": "1640130477000",
+    "last_temp": 17.8,
+    "customer": "customer-19",
+    "location": "Không"
+  },
+  {
+    "device_id": "nrf-d8962d326b29",
+    "last_online": "1657475641000",
+    "last_temp": 21.1,
+    "customer": "customer-20",
+    "location": "Housuo"
+  },
+  {
+    "device_id": "nrf-534c336b62c4",
+    "last_online": "1641585676000",
+    "last_temp": 20.9,
+    "customer": "customer-20",
+    "location": "Pakokku"
+  },
+  {
+    "device_id": "nrf-9786b84a8ecb",
+    "last_online": "1630508968000",
+    "last_temp": 28.6,
+    "customer": "customer-20",
+    "location": "Tallahassee"
+  },
+  {
+    "device_id": "nrf-a722206f658e",
+    "last_online": "1655061740000",
+    "last_temp": 23.1,
+    "customer": "customer-20",
+    "location": "Punata"
+  },
+  {
+    "device_id": "nrf-33305994a41e",
+    "last_online": "1657575616000",
+    "last_temp": 28.7,
+    "customer": "customer-20",
+    "location": "Xingang"
+  },
+  {
+    "device_id": "nrf-3922c9ab0788",
+    "last_online": "1651641055000",
+    "last_temp": 18.1,
+    "customer": "customer-20",
+    "location": "Helsingborg"
+  },
+  {
+    "device_id": "nrf-d1fb5cf404a8",
+    "last_online": "1652255417000",
+    "last_temp": 20.7,
+    "customer": "customer-20",
+    "location": "Ostojićevo"
+  },
+  {
+    "device_id": "nrf-880d2cc6e66e",
+    "last_online": "1628048615000",
+    "last_temp": 21.6,
+    "customer": "customer-20",
+    "location": "Gunung Sugih"
+  }
+]

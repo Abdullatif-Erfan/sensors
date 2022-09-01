@@ -1,0 +1,17 @@
+.chart {
+    flex: 4;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px -4px #999;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.chartTitle {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,44 @@
+.chart {
+    flex: 4;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px -4px #999;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.chartTitle {
+    border: 2px solid #ddd;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px
+}
+
+ul.recharts-default-legend {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sensorChartWrapper {
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 20px;
+    margin: 10px;
+    padding-bottom: 100px;
+    box-shadow: 0px 0px 10px -4px #999;
+    background-color: #fff;
+}
+
+canvas {
+    padding: 5px 20px;
+    background-color: rgb(2, 2, 2);
+    color: #fff !important;
+    margin-top: -8px;
+}

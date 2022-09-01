@@ -1,0 +1,11 @@
+.notfoundWrapper {
+    text-align: center;
+    padding: 50px;
+}
+.notFoundMessage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 70vh;
+}

@@ -1,0 +1,33 @@
+.deviceItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.deviceformation {
+    display: flex;
+    flex-direction: column;
+}
+
+.deviceStatus {
+    font-size: 16px;
+}
+
+.onlineOfflineStatus {
+    font-size: 12px;
+}
+
+.deviceItem i {
+    font-size: 35px;
+    color: silver;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.activityText {
+    font-size: 14px;
+    color: #777;
+}

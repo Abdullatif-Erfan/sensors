@@ -1,0 +1,55 @@
+.pageNumbers {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    float: right;
+}
+
+.pageNumbers li {
+    padding: 0px 10px;
+    border: 1px solid rgb(206, 202, 202);
+    cursor: pointer;
+    height: 26px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pageNumbers li.active {
+    background-color: rgb(15, 136, 192);
+    color: #fff;
+}
+
+.pageNumbers li button {
+    background-color: transparent;
+    border: none;
+    color: #0f88c0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pageNumbers li button:hover {
+    background-color: white;
+    color: black;
+}
+
+.pageNumbers li button:focus {
+    outline: none;
+}
+
+.loadmore {
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.loading {
+    height: 40px;
+}
+
+.pageNumbers button:disabled {
+    color: #999;
+    cursor: not-allowed;
+}

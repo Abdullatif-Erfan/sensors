@@ -1,0 +1,6 @@
+@import '../home/homeStyle/homeStyle.scss';
+
+.class_name {
+    @extend home_container;
+    background-color: black;
+}

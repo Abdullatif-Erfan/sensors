@@ -1,0 +1,17 @@
+[{
+  "time": "1629948641000",
+  "description": "est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis",
+  "event_name": "DEVICE_ONLINE"
+}, {
+  "time": "1651257976000",
+  "description": "purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
+  "event_name": "DEVIVE_OFFLINE"
+}, {
+  "time": "1656998397000",
+  "description": "elit ac nulla sed vel enim sit amet nunc viverra dapibus",
+  "event_name": "LOW_POWER"
+}, {
+  "time": "1631290995000",
+  "description": "felis fusce posuere felis sed lacus morbi sem mauris laoreet",
+  "event_name": "REQUEST_TIMEOUT"
+}]

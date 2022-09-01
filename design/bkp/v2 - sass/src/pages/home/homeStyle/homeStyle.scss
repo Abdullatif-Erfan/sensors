@@ -1,0 +1,39 @@
+$mainColor: green;
+$primaryColor: #444;
+$textColor: #fff;
+
+/** 
+Mixin is like a function in javascript
+using this feature in css we can create a common style
+and then can use any where by include
+ */
+// @mixin flexCenter {
+@mixin flexCenter($direction, $background) {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: $direction;
+   background-color: $background;
+}
+
+.home_container{
+  // background-color: $mainColor;
+  color: $textColor;
+  @include flexCenter(column, red);
+  width: 100%;
+  height: 100px;
+  h3 {
+    color: blue;
+    &:hover {
+      background: red;
+    }
+    &::after { content: " , Bye "; }
+    &::before { content: " Hello "; }
+  }
+  .homeBody{
+    background-color: white;
+    border: 2px solid red;
+  }
+}
+
+@import './footer';
