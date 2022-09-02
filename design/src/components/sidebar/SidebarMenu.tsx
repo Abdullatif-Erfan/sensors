@@ -40,12 +40,12 @@ export const SidebarMenu = () => {
         {/* --- End REPORTS Menu --- */}
 
         <li className="nav-item">
-            <Link to="/sensors">
-             <span className="nav-link collapsed">
+            <span className="nav-link collapsed">
+              <Link to="/sensors">
               <i className="bi bi-graph-up" />
               <span className="menuTitle">SENSORS</span>
-               </span>
-            </Link>
+               </Link>
+            </span>
         </li>
         {/* --- End SENSORS Menu --- */}
 
