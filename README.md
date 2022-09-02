@@ -2,35 +2,33 @@
 
 - Create a folder inside htdocs or any other server that you are using, ex: sensor
 - Download or Clone the project inside sensor folder
-- Navigate to the server directory throught CMD or Visual Studio code terminal
+- Navigate to the dashboard-api directory throught CMD or Visual Studio code terminal
 - Run the following command to install dependencies:
 
 ```
 npm install
 ```
 
-- Navigate to the client directory throught CMD or Visual Studio code terminal
+- Navigate to the design directory throught CMD or Visual Studio code terminal
 - Run the following command to install dependencies:
 
 ```
 npm install
 ```
 
-- Navigate to the server directory and run the following command to start the server and client application at the same time:
+- Navigate to the dashboard-api directory and run the following command to start the server 
 
 ```
 npm start or yarn start
 ```
 
-using concurrently plugin client and server will start working with a single command
-
-# Testing
-
-- Navigate to the client directory and run the following command:
+- Navigate to the design directory and run the following command to start the client side application 
 
 ```
-npm run test
+npm start or yarn start
 ```
+
+
 
 # API Endpoints
 
@@ -49,5 +47,8 @@ GET http://localhost:5000/details/msg_downtime_alert_wklyAVGTemp
 GET http://localhost:5000/details/daily_temprature_chart
 GET http://localhost:5000/details/system_log
 GET http://localhost:5000/details/activity
+
+# Add Sensor Page
+POST http://localhost:5000/operations
 
 ```
