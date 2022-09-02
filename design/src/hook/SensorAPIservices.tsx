@@ -98,32 +98,25 @@ export const TotalCustomersAPIServices = () => {
   return useQuery("totalCustomers", fetchTotalCustomersData);
 };
 
-// export const SenserAPIServices2 = (
-//   pageNumber: number,
-//   limitPerPage: number
-// ) => {
-//   return useQuery(["sensors_list", pageNumber], () =>
-//     fetchSensorsData(pageNumber, limitPerPage)
-//   );
-// };
 
 /**
- *
- * refetchOnWindowFocus: automatically requests fresh data in the background if user leaves the app and returns to stale data.
- * refetchOnmount: if true, refetch on mount if the data is stale.
- * refetchOnReconnect: if true, refetch on reconnect if the data is stale.
- * retry: if true, failed queries will retry infinitely.
- * staleTime: the time in milliseconds after data is considered stale. Defaults to 0.
- *
+ *  ----------------- NOTE ! ----------------------------------
+ * Some usefull Configuration Options will be described here
+ * 1 - refetchOnWindowFocus: automatically requests fresh data in the background if user leaves the app and returns to stale data.
+ * 2 - refetchOnmount: if true, refetch on mount if the data is stale.
+ * 3 - refetchOnReconnect: if true, refetch on reconnect if the data is stale.
+ * 4 - retry: if true, failed queries will retry infinitely.
+ * 5 - staleTime: the time in milliseconds after data is considered stale. Defaults to 0.
  */
-//   const queryClient = new QueryClient({
-//     defaultOptions: {
-//       queries: {
-//         refetchOnWindowFocus: false,
-//         refetchOnmount: false,
-//         refetchOnReconnect: false,
-//         retry: false,
-//         staleTime: 5*60*1000,
-//       },
-//     },
-//   });
+ // ---------------- Example -------------------
+  // const queryClient = new QueryClient({
+  //   defaultOptions: {
+  //     queries: {
+  //       refetchOnWindowFocus: false,
+  //       refetchOnmount: false,
+  //       refetchOnReconnect: false,
+  //       retry: false,
+  //       staleTime: 5*60*1000,
+  //     },
+  //   },
+  // });

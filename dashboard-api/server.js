@@ -1,11 +1,13 @@
-/**
- * express framework used here to handle routes, in http requests
- */
 const express = require("express");
 const app = express();
+app.use(express.json());
 
-const bodyparser = require("body-parser");
-app.use(bodyparser.json());
+const bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({ extended: true }));
+
+const cors = require("cors");
+app.use(cors());
+
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
@@ -13,11 +15,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// allowed server to share the resources for any address (API Call, Specific domain, HTTP requests)
-var cors = require("cors");
-app.use(cors());
 
-// app.use() is used to handle all http requests, and it is used to introduce middleware in our application
 /**
  * Routes for: Home Page
  * 1. Total Sensors
@@ -41,6 +39,16 @@ app.use("/home", home_routes);
  */
 const details_data_routes = require("./routes/details_routes");
 app.use("/details", details_data_routes);
+
+/**
+ * Routes for Adding and Editing Sensors
+ * 1. Add Sensors
+ * 2. Edit Sensors
+ */
+const sensorsOperation = require("./routes/sensorsOperation");
+app.use("/operations", sensorsOperation);
+
+
 
 // Handle unknown routes
 app.use(function(req, res) {

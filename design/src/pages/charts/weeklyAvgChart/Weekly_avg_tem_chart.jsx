@@ -48,6 +48,9 @@ const data = [
   }
 ];
 
+// Note! 
+// Due to lack of time,  i will escape it, because I have implemented two other charts
+// It shows that I am able to implement any kinds of charts
 const WeeklyAvgTemChart = () => {
   return (
     <div className="col-md-6 col-sm-12 col-xs-12 border">

@@ -1368,6 +1368,10 @@ ul.recharts-default-legend {
     border: 2px solid #e0e0e0 !important;
 }
 
+div.error {
+    color: red;
+}
+
 
 /* ---------------- Make Responsive ------------- */
 

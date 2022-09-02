@@ -1,10 +1,12 @@
-interface totalReportsPageType {
+
+interface TotalReportsPageType {
   title?: string;
   text?: string;
   amount?: number;
   type?: string;
 }
-const TotalReports = ({ title, text, amount, type }: totalReportsPageType) => {
+
+const TotalReports = ({ title, text, amount, type }: TotalReportsPageType) => {
   return (
     <div className="row border">
       <div className="totalMessageWrapper">

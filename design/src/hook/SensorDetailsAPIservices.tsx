@@ -53,12 +53,6 @@ const fetchActivityData = async () => {
   }
 };
 
-// const fetchDailyChartData = async (pageNumber: number, limitPerPage: number) => {
-//   const response = await axios.get(
-//     `http://localhost:5000/sensors?page=${pageNumber}&limit=${limitPerPage}`
-//   );
-//   return response;
-// };
 
 export const useTotalsAndWeeklyAvgTemp = () => {
   return useQuery(

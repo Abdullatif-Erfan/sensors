@@ -36,3 +36,4 @@ export type ActivityType = {
   description: string;
   event_name: string;
 };
+

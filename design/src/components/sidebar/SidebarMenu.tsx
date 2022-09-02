@@ -5,11 +5,6 @@ export const SidebarMenu = () => {
     <aside id="sidebar" className="sidebar">
       {/* --------------- Search Bar ---------------- */}
       <div className="search-bar">
-        <form
-          className="search-form d-flex align-items-center"
-          method="POST"
-          action="#"
-        >
           <input
             type="text"
             name="query"
@@ -19,7 +14,6 @@ export const SidebarMenu = () => {
           <button type="submit" title="Search">
             <i className="bi bi-search" />
           </button>
-        </form>
       </div>
       {/* ---------------- End Search Bar --------------- */}
 
@@ -37,40 +31,40 @@ export const SidebarMenu = () => {
 
         <li className="nav-item">
           <span className="nav-link collapsed">
-            <Link to="/reports">
+            <a href="#">
               <i className="bi bi-file-earmark-richtext" />
               <span className="menuTitle">REPORTS</span>
-            </Link>
+            </a>
           </span>
         </li>
         {/* --- End REPORTS Menu --- */}
 
         <li className="nav-item">
-          <span className="nav-link collapsed">
             <Link to="/sensors">
+             <span className="nav-link collapsed">
               <i className="bi bi-graph-up" />
               <span className="menuTitle">SENSORS</span>
+               </span>
             </Link>
-          </span>
         </li>
         {/* --- End SENSORS Menu --- */}
 
         <li className="nav-item">
           <span className="nav-link collapsed">
-            <Link to="/users">
+            <a href="#">
               <i className="bi bi-people-fill" />
               <span className="menuTitle">USERS</span>
-            </Link>
+            </a>
           </span>
         </li>
         {/* --- End USERS Menu --- */}
 
         <li className="nav-item">
           <span className="nav-link collapsed">
-            <Link to="/settings">
+            <a href="#">
               <i className="bi bi-gear" />
               <span className="menuTitle">SETTINGS</span>
-            </Link>
+            </a>
           </span>
         </li>
         {/* --- End SETTINGS Menu --- */}

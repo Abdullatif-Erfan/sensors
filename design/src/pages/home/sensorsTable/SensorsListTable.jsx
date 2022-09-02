@@ -1,15 +1,15 @@
-// https://www.youtube.com/watch?v=6DtBw3PaeHs
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import moment from "moment";
-
 import SensorTypes from "../../../types/Types";
 import { SenserAPIServices } from "../../../hook/SensorAPIservices";
-
 import "./sensorsListTable.css";
+
+
 
 function SensorsListTable({ totalSensors }) {
   const totalSensor = parseInt(totalSensors);
+
 
   // --------- Pagination Setup Hooks ------------------------
   const [currentPage, setcurrentPage] = useState(1);
@@ -43,24 +43,6 @@ function SensorsListTable({ totalSensors }) {
   const handleClick = event => {
     setcurrentPage(Number(event.target.id));
   };
-
-  /**
-   * We have 30 pages and 150 records
-   * First page: indexOfLastItem = 5
-   * Second Page: indexOfLastItem = 10
-   */
-  const indexOfLastItem = currentPage * itemsPerPage;
-
-  /**
-   * First page: indexOfFirstItem = 0
-   * Second Page: indexOfFirstItem = 5
-   * Increment and decrement by 5
-   */
-  // const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  // const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
-  // const currentItems = data2;
-
-  // console.log("Cur Items:", currentItems);
 
   const handleNextbtn = () => {
     setcurrentPage(currentPage + 1);
@@ -222,4 +204,4 @@ function SensorsListTable({ totalSensors }) {
   }
 }
 
-export default SensorsListTable;
+export default React.memo(SensorsListTable);

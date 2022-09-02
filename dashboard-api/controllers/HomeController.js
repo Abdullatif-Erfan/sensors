@@ -179,13 +179,11 @@ function pagination(request, sensors) {
   const page = parseInt(request.query.page);
   const limit = parseInt(request.query.limit);
 
-  /**
-   * page1 and Limit2: startIndex =>  (1-1) * 2 => 0 ---> in first page startIndex should be zero to become hide
-   * page2 and Limit2: startIndex =>  (2-1) * 2 => 2 ---> in second page startIndex should be greater than zero to be shown
-   *
-   * Suppose we have 10 records and 5 pages
-   * page5 and Limit2: endIndex => 5 * 2 = 10.  ---> if(endIndex < sensors.length) => 10 < 10. condition not match and next button should be hidden
-   */
+   /**
+   * @startIndex and @endIndex will be caluculated to:
+   * 1. Specify Data Range
+   * 2. Identify we are at the begining or end of the list
+    */
   const startIndex = (page - 1) * limit;
   const endIndex = page * limit;
 

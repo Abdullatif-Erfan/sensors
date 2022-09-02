@@ -8,11 +8,17 @@ import WeeklyAvgTemChart from "../../charts/weeklyAvgChart/Weekly_avg_tem_chart"
 import SystemLog from "../systemLog/SystemLog";
 import Activities from "../activity/Activities";
 import TotalReports from "../totalReports/TotalReports";
-// import SensorsChart from "../../charts/sensorChart/SensorsChart";
 const SensorDetailsPage = () => {
-  const { device_id } = useParams();
+const { device_id } = useParams(); // get Sensor Id from url
 
+
+  //  ---- Get the Data using useQuery and set into variables -------
   const { isLoading, data, isError, error } = useTotalsAndWeeklyAvgTemp();
+  const totalReports = data?.data.records.overview;
+  const alerts = totalReports?.alerts;
+  const down_time = totalReports?.down_time
+  const total_messages = totalReports?.total_messages
+
 
   // ---------- Handling Loading and Errors -----------------
   if (isLoading) {
@@ -29,10 +35,9 @@ const SensorDetailsPage = () => {
 
   return (
     <Fragment>
-      {/* ------------- Main Content  -------------- */}
+      {/* ------------------------- Main Content  -------------- */}
       <main id="main" className="main">
         <MainContainer className="sensorDetails">
-          {/* --------------- Weekly Average ------------- */}
           <h5 className="card-title">
             <Link to="/">
               <span className="backButton">
@@ -44,21 +49,21 @@ const SensorDetailsPage = () => {
 
           <div className="col-lg-12">
             <div className="row">
-              {/* ----- Left side -------- */}
+              {/* --------- Left side (Total Reports) ------- */}
               <div className="col-md-6 col-sm-12 col-xs-12">
-                {/* --- TOTAL MESSAGES ---  */}
+                {/* TOTAL MESSAGES */}
                 <TotalReports
                   title="TOTAL MESSAGES"
                   text="Total Messages this week"
-                  amount={120}
+                  amount={total_messages}
                 />
-                {/*  --- End of TOTAL MESSAGES --- */}
+                {/* End of TOTAL MESSAGES */}
 
                 {/* --- DownTime ---  */}
                 <TotalReports
                   title="DOWN TIME"
                   text="Total down time"
-                  amount={67}
+                  amount={down_time}
                   type="sec"
                 />
                 {/*  --- End of DownTime --- */}
@@ -67,18 +72,19 @@ const SensorDetailsPage = () => {
                 <TotalReports
                   title="ALERTS"
                   text="System Alerts this week"
-                  amount={74}
+                  amount={alerts}
                 />
                 {/*  --- End of Alerts --- */}
               </div>
-              {/* ----- End of Left side -------- */}
+              {/* --------------- End of Left side (Total Reports) --------- */}
 
-              {/* ----- Right side -------- */}
+
+              {/* ----------- Right side (Weekly Graph) -------- */}
               <WeeklyAvgTemChart />
-              {/* ----- End of Right side -------- */}
+              {/* ----- End of Right side (Weekly Graph) -------- */}
             </div>
           </div>
-          {/* --- End of Weekly Average --- */}
+
 
           {/* --- Temperature Daily Graph --- */}
           <TempratureDailyLineChart />
@@ -93,11 +99,12 @@ const SensorDetailsPage = () => {
               </div>
             </div>
           </div>
-
           {/* ---- End of System Log and Activies --- */}
+
+          
         </MainContainer>
       </main>
-      {/* ----------- End of Main Content ---------- */}
+      {/* ------------------------ End of Main Content ----------------- */}
     </Fragment>
   );
 };

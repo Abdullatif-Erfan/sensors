@@ -26,11 +26,6 @@ ChartJS.register(
 );
 
 export const options = {
-  // title: {
-  //   display: true,
-  //   text: "LineChart"
-  // },
-  // response: true,
   maintainAspectRatio: false,
   legend: {
     display: false,
@@ -67,19 +62,6 @@ export const options = {
   }
 };
 
-function convertDate(time) {
-  // var fullDate = new Date(time).toLocaleDateString("en-US");
-  // // console.log(moment(fullDate).format("D/MM/Y")); // 27/09/2021
-  // console.log(moment(fullDate).format("MM/D")); //09/27
-
-  var fullDate = new Date(time).toLocaleDateString("en-US");
-  return moment(fullDate).format("MM/DD"); //09/27
-  // return fullDate;
-}
-
-// var s = new Date(1632740291000).toLocaleDateString("en-US");
-// // console.log(moment(s).format("D/MM/Y")); // 27/09/2021
-// console.log(moment(s).format("MM/D")); //09/27
 
 const SensorsChart = () => {
   const { isLoading, isError, data, error } = ChartAPIServices();
@@ -100,8 +82,8 @@ const SensorsChart = () => {
   /**
    * 1. Get APIData
    * 2. select stats of each device using map function
-   * 3. rename time as a x and temp as a y of each stats
-   * 4. get device id for showing as a label
+   * 3. rename time as a x and temp as a y of each stats (Note! this graph just needs x and y)
+   * 4. get device id to show as a label
    */
   const allStats = APIData.map(item => item.stats);
   // rename fileds for first device
