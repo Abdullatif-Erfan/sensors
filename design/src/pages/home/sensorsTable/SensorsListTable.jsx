@@ -4,12 +4,11 @@ import moment from "moment";
 import SensorTypes from "../../../types/Types";
 import { SenserAPIServices } from "../../../hook/SensorAPIservices";
 import "./sensorsListTable.css";
-
-
+import Spinner from "../../../components/loader/spinner/Spinner";
+import Button from "../../../components/button/Button";
 
 function SensorsListTable({ totalSensors }) {
   const totalSensor = parseInt(totalSensors);
-
 
   // --------- Pagination Setup Hooks ------------------------
   const [currentPage, setcurrentPage] = useState(1);
@@ -22,7 +21,7 @@ function SensorsListTable({ totalSensors }) {
     // console.log("Perform side effect after data fetching", data);
   };
   const onError = error => {
-    return <h1>{error.message}</h1>;
+    // return <h1>{error.message}</h1>;
   };
 
   // ----------------- Get Data From API using reactQuery -----------------
@@ -82,18 +81,6 @@ function SensorsListTable({ totalSensors }) {
     setcurrentPage(nextPage.page);
   };
 
-  if (isLoading) {
-    return <h2>Loading...</h2>;
-  }
-
-  if (isError) {
-    return (
-      <span>
-        {error instanceof Error ? <h2>{error.message}</h2> : "Unexpected error"}
-      </span>
-    );
-  }
-
   // ---------------- Add active class to active list item ----------------
   const renderPageNumbers = pages.map(number => {
     if (number < maxPageNumberLimit + 1 && number > minPageNumberLimit) {
@@ -125,48 +112,61 @@ function SensorsListTable({ totalSensors }) {
         <div className="card-body">
           <h5 className="card-title">SENSOR LIST</h5>
 
-          <div className="sensorListWrapper">
-            <table className="table table-striped">
-              <tbody>
-                {currentItems.map(
-                  ({
-                    device_id,
-                    last_online,
-                    last_temp,
-                    customer,
-                    location
-                  }) => {
-                    return renderData(
+          {/* ----- Show Errors when occured ------ */}
+          {isError && (
+            <div className="errorWrapper">
+              {error instanceof Error && (
+                <div className="errorMessage">{error.message}</div>
+              )}
+            </div>
+          )}
+          {/* ----- End of Show Errors ----- */}
+          {isLoading ? (
+            <Spinner />
+          ) : (
+            <div className="sensorListWrapper">
+              <table className="table table-striped">
+                <tbody>
+                  {currentItems.map(
+                    ({
                       device_id,
                       last_online,
                       last_temp,
+                      customer,
                       location
-                    );
-                  }
-                )}
-              </tbody>
-            </table>
-            <ul className="pageNumbers">
-              <li>
-                <button onClick={handlePrevPage} disabled={currentPage === 1}>
-                  Prev
-                </button>
-              </li>
-              {pageDecrementBtn}
-              {renderPageNumbers}
-              {pageIncrementBtn}
-              <li>
-                <button
-                  onClick={handleNextPage}
-                  disabled={currentPage === totalSensor}
-                >
-                  Next
-                </button>
-              </li>
-            </ul>
+                    }) => {
+                      return renderData(
+                        device_id,
+                        last_online,
+                        last_temp,
+                        location
+                      );
+                    }
+                  )}
+                </tbody>
+              </table>
+              <ul className="pageNumbers">
+                <li>
+                  <button onClick={handlePrevPage} disabled={currentPage === 1}>
+                    Prev
+                  </button>
+                </li>
+                {pageDecrementBtn}
+                {renderPageNumbers}
+                {pageIncrementBtn}
+                <li>
+                  <button
+                    onClick={handleNextPage}
+                    disabled={currentPage === totalSensor}
+                  >
+                    Next
+                  </button>
+                </li>
+              </ul>
 
-            <div className="col-12 loading">{isFetching && "Loading..."}</div>
-          </div>
+              <div className="col-12 loading">{isFetching && "Loading..."}</div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -176,12 +176,12 @@ function SensorsListTable({ totalSensors }) {
     return (
       <tr key={device_id}>
         <th>{device_id}</th>
-        <td>
+        <td className="hidden-xs">
           {moment(parseInt(last_online)).format("ll")}
           <br />
           <small>Last Online</small>
         </td>
-        <td>
+        <td className="hidden-xs">
           {last_temp}
           <br />
           <small>Temp</small>
@@ -191,12 +191,12 @@ function SensorsListTable({ totalSensors }) {
           <br />
           <small>Location</small>
         </td>
-        <td>
-          <button className="optionsButton">Options</button>
+        <td className="hidden-xs">
+          <Button className="optionsButton">Options</Button>
         </td>
         <td>
           <Link to={`/sensorDetails/${device_id}`}>
-            <button className="detailsButton">Details</button>
+            <Button className="detailsButton">Details</Button>
           </Link>
         </td>
       </tr>

@@ -10,49 +10,32 @@ import { axiosResponseTypes } from "../types/Types";
  * http://localhost:5000/details/activity
  */
 const fetchTotalsAndWeeklyAvgTemp = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "/details/msg_downtime_alert_wklyAVGTemp"
-    );
-    return response;
-  } catch (err) {
-    return (err as Error).message;
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "/details/msg_downtime_alert_wklyAVGTemp"
+  );
+  return response;
 };
 
 const fetchDailyChartData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "details/daily_temprature_chart"
-    );
-    return response;
-  } catch (err) {
-    return (err as Error).message;
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "details/daily_temprature_chart"
+  );
+  return response;
 };
 
 const fetchSystemLogData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "details/system_log"
-    );
-    return response;
-  } catch (err) {
-    return (err as Error).message;
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "details/system_log"
+  );
+  return response;
 };
 
 const fetchActivityData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "details/activity"
-    );
-    return response;
-  } catch (err) {
-    return (err as Error).message;
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "details/activity"
+  );
+  return response;
 };
-
 
 export const useTotalsAndWeeklyAvgTemp = () => {
   return useQuery(

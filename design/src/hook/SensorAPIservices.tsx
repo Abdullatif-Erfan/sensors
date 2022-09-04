@@ -13,57 +13,37 @@ import { axiosResponseTypes } from "../types/Types";
  */
 
 const fetchTotalSensorsData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "home/total_sensors"
-    );
-    return response;
-  } catch (err) {
-    console.log("Error Occured", (err as Error).message);
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "home/total_sensors"
+  );
+  return response;
 };
 const fetchSensorsData = async (pageNumber: number, limitPerPage: number) => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      `home/sensors_list?page=${pageNumber}&limit=${limitPerPage}`
-    );
-    return response;
-  } catch (err) {
-    return (err as Error).message;
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    `home/sensors_list?page=${pageNumber}&limit=${limitPerPage}`
+  );
+  return response;
 };
 
 const fetchTotalOpenAlertsData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "home/total_open_alerts"
-    );
-    return response;
-  } catch (err) {
-    console.log("Error Occured", (err as Error).message);
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "home/total_open_alerts"
+  );
+  return response;
 };
 
 const getHomeChartData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "home/sensor_temp_char"
-    );
-    return response;
-  } catch (err) {
-    return (err as Error).message;
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "home/sensor_temp_char"
+  );
+  return response;
 };
 
 const fetchTotalCustomersData = async () => {
-  try {
-    const response = await axiosInstance.get<axiosResponseTypes, any>(
-      "home/total_customers"
-    );
-    return response;
-  } catch (err) {
-    console.log("Error Occured", (err as Error).message);
-  }
+  const response = await axiosInstance.get<axiosResponseTypes, any>(
+    "home/total_customers"
+  );
+  return response;
 };
 
 export const TotalSenserAPIServices = () => {
@@ -81,7 +61,8 @@ export const SenserAPIServices = ({
     () => fetchSensorsData(currentPage, itemsPerPage),
     {
       onSuccess,
-      onError
+      onError,
+      keepPreviousData: true
     }
   );
 };
@@ -98,7 +79,6 @@ export const TotalCustomersAPIServices = () => {
   return useQuery("totalCustomers", fetchTotalCustomersData);
 };
 
-
 /**
  *  ----------------- NOTE ! ----------------------------------
  * Some usefull Configuration Options will be described here
@@ -108,15 +88,15 @@ export const TotalCustomersAPIServices = () => {
  * 4 - retry: if true, failed queries will retry infinitely.
  * 5 - staleTime: the time in milliseconds after data is considered stale. Defaults to 0.
  */
- // ---------------- Example -------------------
-  // const queryClient = new QueryClient({
-  //   defaultOptions: {
-  //     queries: {
-  //       refetchOnWindowFocus: false,
-  //       refetchOnmount: false,
-  //       refetchOnReconnect: false,
-  //       retry: false,
-  //       staleTime: 5*60*1000,
-  //     },
-  //   },
-  // });
+// ---------------- Example -------------------
+// const queryClient = new QueryClient({
+//   defaultOptions: {
+//     queries: {
+//       refetchOnWindowFocus: false,
+//       refetchOnmount: false,
+//       refetchOnReconnect: false,
+//       retry: false,
+//       staleTime: 5*60*1000,
+//     },
+//   },
+// });

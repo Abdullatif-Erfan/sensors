@@ -17,7 +17,6 @@ const SensorDetailsPage = lazy(() =>
   import("./pages/sensorDetails/detailsHome/SensorDetails")
 );
 
-
 // Create an object from QueryClient to provide data from cache for all components
 const queryClient = new QueryClient();
 

@@ -2,23 +2,11 @@ import "./systemLogStyle.css";
 import { GetSystemLogData } from "../../../hook/SensorDetailsAPIservices";
 import { logTypes } from "../../../types/Types";
 import moment from "moment";
+import Spinner from "../../../components/loader/spinner/Spinner";
 
 const SystemLog = () => {
   const { isLoading, data: logData, isError, error } = GetSystemLogData();
 
-
-  // --- Handling Loading and Errors ---
-  if (isLoading) {
-    return <h2>Loading...</h2>;
-  }
-
-  if (isError) {
-    return (
-      <span>
-        {error instanceof Error ? <h2>{error.message}</h2> : "Unexpected error"}
-      </span>
-    );
-  }
 
   return (
     <>
@@ -30,7 +18,20 @@ const SystemLog = () => {
           <div className="card">
             <div className="card-body">
               <div className="activity">
-                {
+
+               {/* ----- Show Errors when occured ------ */}
+                {isError && (
+                  <div className="errorWrapper">
+                    {error instanceof Error && (
+                      <div className="errorMessage">{error.message}</div>
+                    )}
+                  </div>
+                )}
+                {/* ----- End of Show Errors ----- */}
+
+
+                { 
+                  isLoading ? <Spinner /> :
                   logData?.data.records.map(({time, description}: logTypes) => {
                     return (
                       <div key={time} className="activity-item d-flex">

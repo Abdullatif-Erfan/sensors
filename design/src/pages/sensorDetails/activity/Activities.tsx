@@ -2,28 +2,30 @@ import "./activitiesStyle.css";
 import { GetActivityData } from "../../../hook/SensorDetailsAPIservices";
 import { ActivityType } from "../../../types/Types";
 import moment from "moment";
+import Spinner from "../../../components/loader/spinner/Spinner";
+import { Fragment } from "react";
 const Activities = () => {
   const { isLoading, data, isError, error } = GetActivityData();
 
-  // --- Handling Loading and Errors ---
-  if (isLoading) {
-    return <h2>Loading...</h2>;
-  }
 
-  if (isError) {
-    return (
-      <span>
-        {error instanceof Error ? <h2>{error.message}</h2> : "Unexpected error"}
-      </span>
-    );
-  }
   return (
     <div className="col-md-6 col-sm-12 col-xs-12">
       <h6>Activity</h6>
       <div className="col-md-12">
         <div className="card">
           <div className="card-body">
+          {/* ----- Show Errors when occured ------ */}
+          {isError && (
+            <div className="errorWrapper">
+              {error instanceof Error && (
+                <div className="errorMessage">{error.message}</div>
+              )}
+            </div>
+          )}
+          {/* ----- End of Show Errors ----- */}
+          
             {
+              isLoading ? <Spinner /> :
                 data?.data.records.map(({time, description, event_name}: ActivityType) => {
                     return (
                         <div key={time} className="activitiesWrapper">

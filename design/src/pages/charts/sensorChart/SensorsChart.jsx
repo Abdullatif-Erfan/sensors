@@ -15,6 +15,7 @@ import {
   Tooltip,
   Legend
 } from "chart.js";
+import Spinner from "../../../components/loader/spinner/Spinner";
 ChartJS.register(
   TimeScale,
   LinearScale,
@@ -62,20 +63,11 @@ export const options = {
   }
 };
 
-
 const SensorsChart = () => {
   const { isLoading, isError, data, error } = ChartAPIServices();
   // ---------- Handling Loading and Errors -----------------
   if (isLoading) {
     return <h2>Loading...</h2>;
-  }
-
-  if (isError) {
-    return (
-      <span>
-        {error instanceof Error ? <h2>{error.message}</h2> : "Unexpected error"}
-      </span>
-    );
   }
 
   const APIData = data?.data.records;
@@ -129,7 +121,22 @@ const SensorsChart = () => {
       <div className="row">
         <div className="sensorChartWrapper">
           <h4 className="chartTitle">SENSORS TEMPRATURES</h4>
-          <Line options={options} data={chartData} />
+
+          {/* ----- Show Errors when occured ------ */}
+          {isError && (
+            <div className="errorWrapper">
+              {error instanceof Error && (
+                <div className="errorMessage">{error.message}</div>
+              )}
+            </div>
+          )}
+          {/* ----- End of Show Errors ----- */}
+
+          {isLoading ? (
+            <Spinner />
+          ) : (
+            <Line options={options} data={chartData} />
+          )}
         </div>
       </div>
     </div>
